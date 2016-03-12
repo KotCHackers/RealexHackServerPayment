@@ -1,0 +1,5 @@
+{
+    "require": {
+        "realexpayments/rxp-hpp-php": "1.0.0"
+    }    
+}
