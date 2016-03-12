@@ -5,7 +5,7 @@
 	use com\realexpayments\hpp\sdk\RealexHpp;
 			 
 	$hppRequest = ( new HppRequest() )
-		->addMerchantId( "realexsandbox" )
+		->addMerchantId( "hackathon12" )
 		->addAccount( "internet" )
 		->addAmount( "1001" )
 		->addCurrency( "EUR" )
