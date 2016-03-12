@@ -4,8 +4,6 @@
 	use com\realexpayments\hpp\sdk\domain\HppRequest;
 	use com\realexpayments\hpp\sdk\RealexHpp;
 	
-
-
 	$hppRequest = ( new HppRequest() )
 		->addCardStorageEnable( "1" )
 		->addOfferSaveCard( "0" )
@@ -15,7 +13,6 @@
 		->addAmount( $_POST['AMOUNT'] )
 		->addCurrency( $_POST['CURRENCY'] )
 		->addAutoSettleFlag( "1" );
-
 
 	$realexHpp = new RealexHpp( "secret" );
 			 
