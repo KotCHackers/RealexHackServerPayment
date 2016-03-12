@@ -4,7 +4,7 @@
 	use com\realexpayments\hpp\sdk\domain\HppResponse;
 	use com\realexpayments\hpp\sdk\RealexHpp;
 
-	$realexHpp = new RealexHpp("secret");
+	$realexHpp = new RealexHpp( "secret" );
 
 	$responseJson = $_POST['hppResponse'];
 
