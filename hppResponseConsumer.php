@@ -13,6 +13,4 @@
 	$result = $hppResponse->getResult();
 	$message = $hppResponse->getMessage();
 	$authCode = $hppResponse->getAuthCode();
-
-	print_r($responseJson); 
 ?>

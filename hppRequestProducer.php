@@ -14,4 +14,5 @@
 	$realexHpp = new RealexHpp( "secret" );
 			 
 	$requestJson = $realexHpp->requestToJson( $hppRequest );
+	echo $requestJson
 ?>
